@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Apartamenty Biała Perła - noclegi w centrum Ustronia</title>
+<meta name="description" content="Apartamenty Biała Perła w centrum Ustronia: apartamenty 1-4 osobowe z kuchnią i łazienką, parking na posesji, rowery. ul. Marii Konopnickiej 2, tel. 664 786 039.">
+<meta name="theme-color" content="#1D1D1B">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="preload" as="image" href="img/hero-m-540.webp" imagesrcset="img/hero-m-420.webp 420w, img/hero-m-540.webp 540w, img/hero-m-668.webp 668w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Jost fb";src:local("Arial"),local("ArialMT");size-adjust:96%}
+:root{--ink:#1D1D1B;--ink2:#3C3C39;--s:#5B5F63;--cy:#2CCAF3;--cyd:#0B7C9C;--g:#F1F4F6;--l:#DDE3E7;--w:min(92vw,1720px);--hh:72px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.6 Jost,"Jost fb",Arial,sans-serif;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--cyd)}
+h1,h2,h3{font-weight:500;line-height:1.12;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.4vw,52px)}
+h3{font-size:22px}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--cy);color:var(--ink);font:600 17px/1 Jost,"Jost fb",Arial,sans-serif;padding:18px 26px;border:0;border-radius:4px;text-decoration:none;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:#5ad7f7}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:22px;height:22px;flex:none}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+
+/* naglowek */
+.hd{position:fixed;inset:0 0 auto;z-index:50;height:var(--hh);transition:background .25s,box-shadow .25s}
+.hd .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.hd .logo{display:block;width:184px;height:40px;position:relative;flex:none}
+.hd .logo img{position:absolute;inset:0;width:100%;height:100%;transition:opacity .25s}
+.hd .logo .lc{opacity:0}
+.hd nav{display:flex;align-items:center;gap:30px}
+.hd nav a{color:#fff;text-decoration:none;font-size:16px;font-weight:500}
+.hd nav a:hover{color:var(--cy)}
+.hd .tel{color:#fff;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.hd .tel svg{width:18px;height:18px}
+.hd.on{background:#fff;box-shadow:0 1px 0 var(--l)}
+.hd.on .logo .lw{opacity:0}.hd.on .logo .lc{opacity:1}
+.hd.on nav a,.hd.on .tel{color:var(--ink)}
+.hd.on nav a:hover{color:var(--cyd)}
+.burger{display:none;width:46px;height:46px;border:0;background:transparent;color:#fff;cursor:pointer;padding:11px;margin-right:-11px}
+.hd.on .burger{color:var(--ink)}
+.burger span{display:block;height:2px;background:currentColor;margin:6px 0;transition:transform .25s,opacity .2s}
+.menu-open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+.menu-open .burger span:nth-child(2){opacity:0}
+.menu-open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+
+/* pierwszy ekran */
+.hero{padding:0;position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:#24303a;overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 40%}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(18,22,26,.55) 0,rgba(18,22,26,0) 22%,rgba(18,22,26,0) 38%,rgba(18,22,26,.72) 78%,rgba(18,22,26,.8) 100%)}
+.hero .wrap{position:relative;z-index:2;padding:calc(var(--hh) + 40px) 0 clamp(88px,8vw,140px)}
+.hero h1{font-size:clamp(38px,4.7vw,88px);max-width:13em;text-wrap:balance}
+.hero .lead{margin-top:20px;font-size:clamp(18px,1.5vw,22px);line-height:1.5;max-width:36em;color:#eef3f6}
+.hero .btn{margin-top:30px}
+.hero .gdzie{margin-top:22px;font-size:15px;color:#d7e0e6}
+.perla{position:absolute;z-index:3;left:50%;bottom:clamp(6px,.9vw,14px);width:clamp(34px,3.4vw,58px);height:auto;transform:translateX(-50%);pointer-events:none}
+.grzbiet{position:absolute;left:0;right:0;bottom:-1px;z-index:2;width:100%;height:clamp(44px,6vw,96px);color:#fff;pointer-events:none}
+
+/* sekcje */
+section{padding:clamp(64px,8vw,128px) 0}
+.szary{background:var(--g)}
+.intro{display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+.intro .txt p{margin-top:18px;color:var(--ink2);max-width:40em}
+.perly{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:12px}
+.perly li{display:flex;gap:14px;align-items:baseline}
+.perly li::before{content:"";flex:none;width:12px;height:12px;border-radius:50%;border:2px solid var(--ink);box-shadow:inset 3px -3px 0 -1px #fff,inset 0 0 0 6px var(--cy);transform:translateY(1px)}
+.intro figure{margin:0;position:relative}
+.intro figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.glowa{display:flex;flex-wrap:wrap;gap:16px 40px;align-items:flex-end;justify-content:space-between;margin-bottom:40px}
+.glowa p{max-width:36em;color:var(--ink2)}
+.apt{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px}
+.apt article{background:#fff;border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.apt img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.apt .in{padding:22px 22px 26px;display:flex;flex-direction:column;gap:12px}
+.osoby{display:flex;gap:6px;align-items:center;height:16px}
+.osoby i{width:14px;height:14px;border-radius:50%;border:2px solid var(--ink);background:radial-gradient(circle at 34% 32%,#fff 0 18%,var(--cy) 22%)}
+.apt p{color:var(--ink2);font-size:16px}
+.wspolne{margin-top:28px;color:var(--ink2)}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.gal button{padding:0;border:0;background:var(--g);cursor:zoom-in;display:block;aspect-ratio:1;overflow:hidden;border-radius:2px}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.gal button:hover img{transform:scale(1.04)}
+.gal button:focus-visible{outline:3px solid var(--cy);outline-offset:2px}
+
+/* okolica - ciemna sekcja */
+.okol{background:var(--ink);color:#fff}
+.okol .glowa p{color:#c9d0d5}
+.pas{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding-bottom:4px}
+.pas::-webkit-scrollbar{display:none}
+.pas.drag{cursor:grabbing;scroll-snap-type:none}
+.pas figure{margin:0;flex:0 0 78%;scroll-snap-align:start}
+.pas button{padding:0;border:0;background:#2a2a28;display:block;width:100%;aspect-ratio:4/5;overflow:hidden;cursor:zoom-in;border-radius:4px}
+.pas img{width:100%;height:100%;object-fit:cover;-webkit-user-drag:none;user-select:none}
+.pas figcaption{margin-top:12px;font-size:16px;color:#dfe5e9}
+.strz{display:flex;gap:10px}
+.strz button{width:48px;height:48px;border-radius:50%;border:1.5px solid #6b6f72;background:transparent;color:#fff;cursor:pointer;display:grid;place-items:center}
+.strz button:hover{border-color:var(--cy);color:var(--cy)}
+.strz svg{width:20px;height:20px}
+
+/* kontakt */
+.kont{display:grid;gap:48px}
+.dane{display:grid;gap:22px;align-content:start}
+.dane .poz b{display:block;font-weight:600;margin-bottom:2px}
+.dane a{color:var(--ink);text-decoration-color:var(--cy);text-underline-offset:4px}
+.mapa{margin-top:8px;aspect-ratio:16/10;background:#dfe5e9;border-radius:4px;overflow:hidden}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+form{align-self:start;background:#fff;border-radius:4px;padding:clamp(22px,3vw,40px);display:grid;gap:16px;grid-template-columns:1fr 1fr;align-content:start}
+form h3{grid-column:1/-1}
+label{display:grid;gap:6px;font-size:15px;font-weight:500}
+.pel{grid-column:1/-1}
+input,select,textarea{font:inherit;font-size:16px;color:var(--ink);border:1.5px solid #c7cfd5;border-radius:4px;padding:12px 14px;background:#fff;width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyd);box-shadow:0 0 0 3px rgba(44,202,243,.3)}
+textarea{min-height:110px;resize:vertical}
+form .btn{justify-self:start}
+.zgoda{font-size:13px;color:var(--s);grid-column:1/-1}
+.ok{grid-column:1/-1;background:var(--g);border-left:0;border-radius:4px;padding:16px 18px;font-size:16px}
+.ok[hidden]{display:none}
+
+/* stopka */
+.ft{background:var(--g);padding:48px 0 28px;font-size:15px;color:var(--ink2)}
+.ft .gora{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.ft .gora>div:first-child{grid-column:1/-1}
+.ft img{width:184px;height:40px}
+.ft h4{margin:0 0 8px;font-size:15px;font-weight:600;color:var(--ink)}
+.ft a{color:var(--ink2);text-decoration:none}
+.ft a:hover{color:var(--cyd)}
+.ft ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.ft .dol{margin-top:36px;padding-top:20px;border-top:1px solid var(--l);display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;align-items:center}
+.ft .copy{font-size:.875em}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,16,18,.94);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:min(94vw,1600px);max-height:86vh;width:auto;height:auto;object-fit:contain;border-radius:2px;user-select:none}
+.lb button{position:absolute;background:rgba(255,255,255,.08);border:0;color:#fff;width:52px;height:52px;border-radius:50%;cursor:pointer;display:grid;place-items:center}
+.lb button:hover{background:rgba(255,255,255,.18)}
+.lb button svg{width:24px;height:24px}
+.lb .x{top:16px;right:16px}.lb .p{left:16px;top:50%;transform:translateY(-50%)}.lb .n{right:16px;top:50%;transform:translateY(-50%)}
+.lb .lic{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#cfd6db;font-size:15px}
+
+@media (max-width:960px){
+ .hd nav{position:fixed;inset:var(--hh) 0 auto;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 4vw 20px;box-shadow:0 12px 24px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s}
+ .hd nav a{color:var(--ink)!important;padding:14px 0;border-bottom:1px solid var(--l);font-size:18px}
+ .menu-open .hd nav{opacity:1;visibility:visible;transform:none}
+ .menu-open .hd{background:#fff}
+ .menu-open .hd .logo .lw{opacity:0}.menu-open .hd .logo .lc{opacity:1}
+ .menu-open .hd .tel,.menu-open .burger{color:var(--ink)}
+ .burger{display:block}
+ .hd .tel span{display:none}
+ .hd .tel{margin-left:auto;padding:10px}
+ .hd .tel svg{width:22px;height:22px}
+}
+@media (max-width:760px){
+ :root{--hh:64px;--w:calc(100% - 32px)}
+ body{font-size:16.5px}
+ .hd .logo{width:156px;height:34px}
+ .hero .wrap{padding:calc(var(--hh) + 24px) 0 64px}
+ .hero h1{font-size:clamp(32px,9.4vw,40px)}
+ .hero .lead{margin-top:14px;font-size:17px}
+ .hero .btn{margin-top:24px;width:100%;justify-content:center}
+ .hero .gdzie{margin-top:14px;font-size:14px}
+ form{grid-template-columns:1fr}
+ .apt{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;scrollbar-width:none;margin-right:-16px;padding-right:16px}
+ .apt::-webkit-scrollbar{display:none}
+ .apt article{flex:0 0 82%;scroll-snap-align:start}
+ .apt .in{padding:18px 18px 22px}
+ .ft .gora{grid-template-columns:1fr 1fr}
+}
+@media (min-width:640px){.pas figure{flex-basis:44%}.gal{grid-template-columns:repeat(4,1fr);gap:8px}}
+@media (min-width:1000px){
+ .intro{grid-template-columns:1.05fr 1fr;gap:clamp(48px,6vw,120px)}
+ .pas figure{flex-basis:calc((100% - 48px)/4)}
+ .kont{grid-template-columns:1fr 1.15fr;gap:clamp(48px,5vw,96px)}
+ .ft .gora{grid-template-columns:1.6fr 1fr 1fr 1fr}
+ .ft .gora>div:first-child{grid-column:auto}
+}
+@media (min-width:1200px){.apt{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:1800px){
+ body{font-size:18px}
+ .gal{grid-template-columns:repeat(6,1fr);gap:10px}
+ .pas figure{flex-basis:calc((100% - 64px)/5)}
+ .apt .in{padding:26px 28px 30px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-tel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M6.5 3.5h3l1.5 4-2 1.3a11 11 0 0 0 6.2 6.2l1.3-2 4 1.5v3a2 2 0 0 1-2 2A16.5 16.5 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"/></symbol>
+ <symbol id="i-l" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></symbol>
+ <symbol id="i-p" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></symbol>
+</svg>
+
+<header class="hd" id="hd">
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="Apartamenty Biała Perła - strona główna"><img class="lw" src="img/logo-w.webp" width="368" height="80" alt="Biała Perła Apartamenty"><img class="lc" src="img/logo.webp" width="368" height="80" alt=""></a>
+  <nav id="menu" aria-label="Menu główne">
+   <a href="#o-nas">O nas</a>
+   <a href="#apartamenty">Apartamenty</a>
+   <a href="#galeria">Galeria</a>
+   <a href="#okolica">Okolica</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="tel:+48664786039" aria-label="Zadzwoń: 664 786 039"><svg aria-hidden="true"><use href="#i-tel"/></svg><span>664 786 039</span></a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main id="tresc">
+<section class="hero" id="top">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-m-420.webp 420w, img/hero-m-540.webp 540w, img/hero-m-668.webp 668w" sizes="100vw">
+  <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1079" alt="Widok z gór na Ustroń i dolinę Wisły" fetchpriority="high" decoding="async">
+ </picture>
+ <div class="wrap">
+  <h1>Apartamenty Biała Perła w&nbsp;samym centrum Ustronia</h1>
+  <p class="lead">Kilka kroków od rynku, restauracji, szlaków i ścieżek rowerowych. Przestronne apartamenty z kuchnią i łazienką, parking na posesji.</p>
+  <a class="btn" href="#kontakt">Zapytaj o wolny termin <svg aria-hidden="true"><use href="#i-p"/></svg></a>
+  <p class="gdzie">ul. Marii Konopnickiej 2, 43-450 Ustroń</p>
+ </div>
+ <svg class="grzbiet" viewBox="0 0 1440 96" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 96V70l120-30 34 10 98-48 70 36 46-10 132 52h440l132-52 46 10 70-36 98 48 34-10 120 30v26z"/></svg>
+ <svg class="perla" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17.5" fill="#fff" stroke="#1D1D1B" stroke-width="2.2"/><path d="M10.5 15.5a11 11 0 0 1 6-5.6" fill="none" stroke="#1D1D1B" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="20" r="4.2" fill="#2CCAF3"/></svg>
+</section>
+
+<section id="o-nas">
+ <div class="wrap intro">
+  <div class="txt">
+   <h2>Perła w dolinie, między Czantorią a Równicą</h2>
+   <p>Apartamenty Biała Perła stoją w centrum Ustronia. Do rynku, sklepów i restauracji idzie się kilka minut, a szlaki turystyczne i ścieżki rowerowe zaczynają się tuż obok. To wygodna baza dla turystów, wczasowiczów i kuracjuszy, którzy chcą poznać Beskid Śląski albo po prostu odpocząć.</p>
+   <ul class="perly">
+    <li>Centrum Ustronia, kilka kroków od rynku</li>
+    <li>Parking dla gości na posesji</li>
+    <li>Rowery do wypożyczenia na miejscu</li>
+    <li>Kuchnia z wyposażeniem i duża łazienka w każdym apartamencie</li>
+    <li>Szybki dojazd drogą nr 941 z całego Śląska</li>
+   </ul>
+  </div>
+  <figure><img src="img/onas-900.webp" srcset="img/onas-600.webp 600w, img/onas-680.webp 680w, img/onas-900.webp 900w" sizes="(min-width:1000px) 45vw, 92vw" width="900" height="675" alt="Salon w apartamencie Biała Perła" loading="lazy" decoding="async"></figure>
+ </div>
+</section>
+
+<section class="szary" id="apartamenty">
+ <div class="wrap">
+  <div class="glowa">
+   <h2>Cztery apartamenty, od&nbsp;1 do&nbsp;4 osób</h2>
+   <p>Nowocześnie urządzone wnętrza z kuchnią, łazienką i telewizorem z płaskim ekranem. Chętnie przygotujemy ofertę dopasowaną do terminu i liczby osób.</p>
+  </div>
+  <div class="apt">
+   <article><img src="img/g07-t.webp" srcset="img/g07-t360.webp 360w, img/g07-t.webp 560w" sizes="(min-width:1200px) 21vw, (min-width:761px) 45vw, 82vw" width="560" height="560" alt="Apartament z wyjściem na balkon" loading="lazy" decoding="async"><div class="in"><div class="osoby" role="img" aria-label="1 osoba"><i></i></div><h3>Apartament 1-osobowy</h3><p>Pojedyncze łóżko, szafka i lampka nocna, szafa, stolik oraz fotele.</p></div></article>
+   <article><img src="img/g03-t.webp" srcset="img/g03-t360.webp 360w, img/g03-t.webp 560w" sizes="(min-width:1200px) 21vw, (min-width:761px) 45vw, 82vw" width="560" height="560" alt="Sypialnia z łóżkiem małżeńskim" loading="lazy" decoding="async"><div class="in"><div class="osoby" role="img" aria-label="2 osoby"><i></i><i></i></div><h3>Apartament 2-osobowy</h3><p>Łóżko małżeńskie, szafki i lampki nocne, szafa, stolik oraz fotele.</p></div></article>
+   <article><img src="img/g02-t.webp" srcset="img/g02-t360.webp 360w, img/g02-t.webp 560w" sizes="(min-width:1200px) 21vw, (min-width:761px) 45vw, 82vw" width="560" height="560" alt="Apartament z aneksem kuchennym" loading="lazy" decoding="async"><div class="in"><div class="osoby" role="img" aria-label="3 osoby"><i></i><i></i><i></i></div><h3>Apartament 3-osobowy</h3><p>Łóżko małżeńskie i jedno łóżko pojedyncze, szafki i lampki nocne, szafa, stolik oraz fotele.</p></div></article>
+   <article><img src="img/g05-t.webp" srcset="img/g05-t360.webp 360w, img/g05-t.webp 560w" sizes="(min-width:1200px) 21vw, (min-width:761px) 45vw, 82vw" width="560" height="560" alt="Pokój dzienny z sofą" loading="lazy" decoding="async"><div class="in"><div class="osoby" role="img" aria-label="4 osoby"><i></i><i></i><i></i><i></i></div><h3>Apartament 4-osobowy</h3><p>Łóżko małżeńskie i dwa łóżka pojedyncze, szafki i lampki nocne, szafa, stolik oraz fotele.</p></div></article>
+  </div>
+  <p class="wspolne">W każdym apartamencie: kuchnia z wyposażeniem, duża łazienka, telewizor z płaskim ekranem.</p>
+ </div>
+</section>
+
+<section id="galeria">
+ <div class="wrap">
+  <div class="glowa"><h2>Wnętrza</h2><p>Kliknij zdjęcie, żeby je powiększyć.</p></div>
+  <div class="gal" id="gal"></div>
+ </div>
+</section>
+
+<section class="okol" id="okolica">
+ <div class="wrap">
+  <div class="glowa">
+   <div><h2>Beskid Śląski za progiem</h2><p style="margin-top:16px">Ustroń to dobra baza wypadowa do zwiedzania całego Beskidu Śląskiego. Latem szlaki i rowery, zimą narty i snowboard.</p></div>
+   <div class="strz"><button type="button" id="pl" aria-label="Poprzednie zdjęcia"><svg><use href="#i-l"/></svg></button><button type="button" id="pp" aria-label="Następne zdjęcia"><svg><use href="#i-p"/></svg></button></div>
+  </div>
+  <div class="pas" id="pas">
+   <figure><button type="button" data-lb="o1"><img src="img/o1.webp" srcset="img/o1-360.webp 360w, img/o1-540.webp 540w, img/o1.webp 720w" sizes="(min-width:1800px) 18vw, (min-width:1000px) 22vw, (min-width:640px) 44vw, 78vw" width="720" height="900" alt="Szlak na stoku z widokiem na dolinę" loading="lazy" decoding="async" draggable="false"></button><figcaption>Szlaki na okolicznych szczytach</figcaption></figure>
+   <figure><button type="button" data-lb="o2"><img src="img/o2.webp" srcset="img/o2-360.webp 360w, img/o2-540.webp 540w, img/o2.webp 720w" sizes="(min-width:1800px) 18vw, (min-width:1000px) 22vw, (min-width:640px) 44vw, 78vw" width="720" height="900" alt="Rower nad górską rzeką" loading="lazy" decoding="async" draggable="false"></button><figcaption>Rowerem wzdłuż rzeki</figcaption></figure>
+   <figure><button type="button" data-lb="o3"><img src="img/o3.webp" srcset="img/o3-360.webp 360w, img/o3-540.webp 540w, img/o3.webp 720w" sizes="(min-width:1800px) 18vw, (min-width:1000px) 22vw, (min-width:640px) 44vw, 78vw" width="720" height="900" alt="Zbójnicka Chata w górach" loading="lazy" decoding="async" draggable="false"></button><figcaption>Zbójnicka Chata</figcaption></figure>
+   <figure><button type="button" data-lb="o4"><img src="img/o4.webp" srcset="img/o4-360.webp 360w, img/o4-540.webp 540w, img/o4.webp 720w" sizes="(min-width:1800px) 18vw, (min-width:1000px) 22vw, (min-width:640px) 44vw, 78vw" width="720" height="900" alt="Punkt widokowy o zachodzie słońca" loading="lazy" decoding="async" draggable="false"></button><figcaption>Wieczór na punkcie widokowym</figcaption></figure>
+   <figure><button type="button" data-lb="o5"><img src="img/o5.webp" srcset="img/o5-360.webp 360w, img/o5-540.webp 540w, img/o5.webp 720w" sizes="(min-width:1800px) 18vw, (min-width:1000px) 22vw, (min-width:640px) 44vw, 78vw" width="720" height="900" alt="Dwór Skibówki wieczorem" loading="lazy" decoding="async" draggable="false"></button><figcaption>Dwór Skibówki</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section class="szary" id="kontakt">
+ <div class="wrap kont">
+  <div class="dane">
+   <h2>Zapytaj o wolny termin</h2>
+   <p style="color:var(--ink2)">Napisz, kiedy i w ile osób chcesz przyjechać. Odpowiemy z dostępnością i ceną.</p>
+   <div class="poz"><b>Adres</b>ul. Marii Konopnickiej 2, 43-450 Ustroń</div>
+   <div class="poz"><b>Telefon</b><a href="tel:+48664786039">+48 664 786 039</a></div>
+   <div class="poz"><b>E-mail</b><a href="mailto:biuro@perlaustron.pl">biuro@perlaustron.pl</a></div>
+   <div class="mapa" id="mapa" role="region" data-src="https://www.google.com/maps?q=ul.+Marii+Konopnickiej+2,+43-450+Ustro%C5%84&amp;output=embed" aria-label="Mapa dojazdu"></div>
+  </div>
+  <form id="form" novalidate>
+   <h3>Zapytanie o pobyt</h3>
+   <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+   <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+   <label>Przyjazd<input name="od" type="date"></label>
+   <label>Wyjazd<input name="do" type="date"></label>
+   <label class="pel">Liczba osób<select name="osoby"><option>1 osoba</option><option selected>2 osoby</option><option>3 osoby</option><option>4 osoby</option><option>więcej niż 4 osoby</option></select></label>
+   <label class="pel">Wiadomość<textarea name="msg" placeholder="Np. przyjedziemy z rowerami, prosimy o miejsce parkingowe"></textarea></label>
+   <p class="zgoda">Wysyłając formularz, zgadzasz się na przetwarzanie danych w celu odpowiedzi na zapytanie, zgodnie z polityką prywatności.</p>
+   <button class="btn" type="submit">Wyślij zapytanie <svg aria-hidden="true"><use href="#i-p"/></svg></button>
+   <p class="ok" id="ok" hidden role="status">Dziękujemy, zapytanie zostało wysłane. Na podany adres e-mail przyjdzie potwierdzenie - jeśli nie widać go w skrzynce, zajrzyj do folderu Spam. Odpowiemy najszybciej, jak to możliwe. <small>(W podglądzie formularz niczego nie wysyła.)</small></p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="ft">
+ <div class="wrap">
+  <div class="gora">
+   <div><img src="img/logo.webp" width="368" height="80" alt="Biała Perła Apartamenty" loading="lazy"></div>
+   <div><h4>Apartamenty</h4><ul><li><a href="#o-nas">O nas</a></li><li><a href="#apartamenty">Apartamenty</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#okolica">Okolica</a></li></ul></div>
+   <div><h4>Kontakt</h4><ul><li>ul. Marii Konopnickiej 2</li><li>43-450 Ustroń</li><li><a href="tel:+48664786039">664 786 039</a></li><li><a href="mailto:biuro@perlaustron.pl">biuro@perlaustron.pl</a></li></ul></div>
+   <div><h4>Więcej</h4><ul><li><a href="https://www.facebook.com/Apartamenty-Bia%C5%82a-Per%C5%82a-913334999003688/" rel="noopener">Facebook</a></li><li><a href="#kontakt">Zapytaj o termin</a></li></ul></div>
+  </div>
+  <div class="dol">
+   <span class="copy">© <span id="rok">2026</span> Apartamenty Biała Perła, Ustroń</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=perlaustron.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <img id="lbi" alt="">
+ <button class="x" type="button" aria-label="Zamknij"><svg><use href="#i-x"/></svg></button>
+ <button class="p" type="button" aria-label="Poprzednie"><svg><use href="#i-l"/></svg></button>
+ <button class="n" type="button" aria-label="Następne"><svg><use href="#i-p"/></svg></button>
+ <div class="lic" id="lbc"></div>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
